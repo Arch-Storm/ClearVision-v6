@@ -1,0 +1,122 @@
+/**
+ * @name ClearVision Red
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+
+:root {
+  --main-color: #FB3822;
+  --hover-color: #8E0813;
+  --success-color: #43b581;
+  --danger-color: #673AB7;
+  --url-color: var(--main-color);
+  --background-image: url('https://i.imgur.com/J7FEqdS.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 106%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 25px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: transparent;
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 0px;
+  --user-popout-overlay: rgba(50,50,50,0.65);
+  --user-modal-image: transparent;
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --channel-unread: #E7E7E7;
+  --channel-color: rgb(255,255,255,0.48);
+  --muted-color: rgb(255,255,255,0.15);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: Helvetica Now Var Display, gg sans;
+  --code-font: Dank Mono;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
+
+/* Any custom CSS below here */
+
+.homeIcon-r0w4ny {
+	background: none;
+	width: 28px;
+	height: 20px;
+}
+
+.homeIcon-r0w4ny>path {
+	display: inline;
+}
+
+.popoutBanner-16rVDY {
+	background-color: rgba(0,0,0,0) !important;
+	-webkit-mask: none;
+}
+
+.userPopoutOuter-3AVBmJ.userProfileOuterUnthemed-2b2rsv .userPopoutInner-1hXSeY {
+	backdrop-filter: blur(15px);
+} 
+
+.nowPlayingColumn-1eCBCN, .sidebar-1tnWFu, .wrapper-1_HaEi, .base-2jDfDU .container-ZMc96U, .peopleColumn-1wMU14 {
+	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important;
+}
+
+.wrapper-1_HaEi, .base-2jDfDU .container-ZMc96U {
+	box-shadow: none;
+}
+
+.withTagAsButton-OsgQ9L .nameTag-sc-gpq, .withTagless-10ooWt .nameTag-sc-gpq {
+	padding-right: 4px;
+}
+
+.avatarWrapper-1B9FTW {
+	background: rgba(0,0,0,0.3);
+	border-radius: 15px;
+}
